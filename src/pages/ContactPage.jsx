@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { FaMapMarkedAlt } from "react-icons/fa";
 
 const ContactPage = () => {
   return (
@@ -23,7 +24,7 @@ const ContactPage = () => {
               </h2>
 
               <p className="mb-4">
-                📍 FF-08,10,12 Arjun Tower,
+                📍 FF-08,10,12, Aavkar Hair Creative, Arjun Tower,
                 Opp CP Nagar, Ghatlodia,
                 Ahmedabad
               </p>
@@ -42,11 +43,26 @@ const ContactPage = () => {
 
             </div>
 
-            <iframe
+            {/* <iframe
               title="map"
               src="https://maps.google.com/maps?q=Ahmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
               className="w-full h-[400px] rounded-xl"
-            />
+            /> */}
+            <iframe
+              title="Aavkar Unisex Salon Location"
+              src="https://maps.google.com/maps?q=Aavkar%20Hair%20Creative%20Arjun%20Tower%20Opp%20CP%20Nagar%20Ghatlodia%20Ahmedabad&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              className="w-full h-[400px] rounded-xl border border-yellow-500"
+            ></iframe>
+
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Aavkar+Hair+Creative+Arjun+Tower+Opp+CP+Nagar+Ghatlodia+Ahmedabad"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 mt-4 bg-gradient-to-r from-yellow-500 to-yellow-300 text-black px-6 py-3 rounded-xl font-bold shadow-lg hover:scale-105 duration-300"
+            >
+              <FaMapMarkedAlt className="text-2xl" />
+              Open in Google Maps
+            </a>
           </div>
 
         </div>

@@ -1,11 +1,25 @@
+// import AppRouter from "./router/AppRouter";
+// import WhatsAppButton from "./components/WhatsAppButton";
+
+// function App() {
+//   return (
+//     <>
+//       <AppRouter />
+//       <WhatsAppButton />
+//     </>
+//   );
+// }
+
+// export default App;
+
 import AppRouter from "./router/AppRouter";
-import WhatsAppButton from "./components/WhatsAppButton";
+import SocialButtons from "./components/WhatsAppButton";
 
 function App() {
   return (
     <>
       <AppRouter />
-      <WhatsAppButton />
+      <SocialButtons />
     </>
   );
 }

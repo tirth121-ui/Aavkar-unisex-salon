@@ -34,7 +34,7 @@ import PricingPage from "../pages/PricingPage";
 import StaffPage from "../pages/StaffPage";
 import GalleryPage from "../pages/GalleryPage";
 import ContactPage from "../pages/ContactPage";
-import AppointmentPage from "../components/Appointment";
+// import AppointmentPage from "../components/Appointment";
 import AboutPage from "../pages/AboutPage";
 
 const AppRouter = () => {
@@ -60,7 +60,7 @@ const AppRouter = () => {
         <Route path="/contact" element={<ContactPage />} />
 
         {/* Appointment */}
-        <Route path="/appointment" element={<AppointmentPage />} />
+        {/* <Route path="/appointment" element={<AppointmentPage />} /> */}
         <Route path="/about" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>

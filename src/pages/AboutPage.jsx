@@ -10,7 +10,7 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto px-6">
 
           <h1 className="text-5xl font-bold text-yellow-500 text-center mb-10">
-            About Aavkar Unisex Salon
+            About Us
           </h1>
 
           <div className="grid md:grid-cols-2 gap-10 items-center">

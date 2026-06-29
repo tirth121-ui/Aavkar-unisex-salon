@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt, FaBars, FaTimes } from "react-icons/fa";
 
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -72,14 +73,21 @@ const Header = () => {
               <span>9898119597</span>
             </div>
 
-            <Link
+            {/* <Link
               to="/appointment"
               className="bg-yellow-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-yellow-400 duration-300"
             >
               Book Now
-            </Link>
+            </Link> */}
 
           </div>
+          <a
+            href="tel:9898119597"
+            className="bg-yellow-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-yellow-400 duration-300"
+          >
+            <FaPhoneAlt className="inline mr-2" />
+            Call Now
+          </a>
 
           {/* Mobile Menu Button */}
           <button

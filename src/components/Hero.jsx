@@ -34,7 +34,7 @@
 
 // export default Hero;
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -72,13 +72,13 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
 
-            <Link
-              to="/appointment"
-              className="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-yellow-400 transition duration-300"
+      
+            <a
+              href="tel:9898119597"
+              className="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-yellow-400 duration-300"
             >
-              Book Appointment
-            </Link>
-
+              📞 Call Now
+            </a>
             <a
               href="https://wa.me/919898119597"
               target="_blank"
